@@ -1,0 +1,170 @@
+.tag h1{
+    color:brown;
+    margin-left: 10px;
+    font-size: 40px;
+   
+   
+}
+
+.data{
+    background-image: url(home/banner.png);
+    background-repeat: no-repeat;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+   
+}
+
+.tag span{
+    color:cadetblue;
+}
+
+.tag h2{
+    color:chocolate;
+    margin-left: 10px;
+}
+
+.tag p{
+    color:darkorange;
+    margin-left: 10px;
+}
+
+.tag a{
+    text-decoration: none;
+    background-image: linear-gradient(orange,lightsalmon);
+    padding: 10px 30px;
+    color:white;
+    margin-left: 10px;
+    font-weight: 700;
+    border-radius: 5%;
+}
+
+.row{
+    display:flex;
+    flex-basis: -11%;
+    justify-content:space-between;
+    padding-left: 22px;
+    padding-top: 20px;
+    
+   
+}
+
+.image img{
+    height:90%;
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 130px;
+    
+   
+    border-radius: 50px;
+}
+
+
+ .row {
+    display: flex;
+    flex-basis: 71%;
+}
+
+.imag img{
+    height:90%;
+    width:80%;
+}
+
+.container{
+    padding-top: 120px;
+    background-image: url(home/bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    
+    
+}
+
+.main a{
+    text-decoration: none;
+    background-image: linear-gradient(orange,lightsalmon);
+    padding: 10px 30px;
+    color:white;
+    border-radius: 5%;
+  
+    font-weight: 700;
+}
+
+.main h1{
+    color:brown;
+}
+
+.main h3{
+    color:darkorange;
+}
+
+.main p{
+    color:chocolate;
+}
+
+
+
+.row-value{
+    display: flex;
+    
+  
+}
+
+.mobile p{
+    font-size: 18px;
+    color:darkorange;
+}
+.mobile h1{
+    font-size: 40px;
+    color:brown;
+    margin-left: 10px;
+}
+
+.store{
+    box-shadow: 5px 7px 30px gray;
+    height: 40%;
+    margin-left: 4%;
+    margin-right: 3%;
+    padding:15px;
+}
+
+.mobile h3{
+    color:chocolate;
+}
+
+.mobile{
+    background-image: url(home/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 90px;
+    margin-top: 90px;
+    
+}
+
+#app{
+    border-left:7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    
+}
+
+#opp{
+    border-left:7px solid;
+    border-image: linear-gradient(orange,lightsalmon);
+    border-image-slice: 1;
+}
+
+footer{
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+
+
+
+
