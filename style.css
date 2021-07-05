@@ -40,10 +40,10 @@
 }
 
 .push span{
-    color:black;
+    
     -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+   
 
 }
 
@@ -273,8 +273,9 @@ body{
     color:black;
 }
 
-.footer .icon{
+.footer .icons{
     color:darkred;
+    font-size: 30px;
 }
 
 .footer span{
