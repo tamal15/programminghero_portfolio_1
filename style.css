@@ -1,3 +1,78 @@
+.push{
+    display:flex;
+    box-shadow: 0px 0px 2px 0px red;
+    border-bottom: 10px solid;
+    border-image: linear-gradient(to right,red, #2c0619, orange, red);
+    border-image-slice: 1;
+    position: sticky;
+    top:0;
+    
+}
+
+.containe{
+    width:1000px;
+    margin:0;
+}
+
+.push .containe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.push .right{
+  
+    width:40%;
+    justify-content: space-between;
+    display:flex;
+}
+.push .left{
+    width:40%;
+}
+
+
+
+.push h1{
+    color:black;
+    font-size: 35px;
+    text-transform: uppercase;
+   
+}
+
+.push span{
+    color:black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+
+
+.push a{
+    color: rgb(102, 90, 90);
+    text-decoration: none;
+    width:100px;
+    text-align: center;
+}
+
+.push a:hover {
+    color: black;
+    transition: 0.3s;
+    font-weight: 700;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 .tag h1{
     color:brown;
     margin-left: 10px;
@@ -63,6 +138,12 @@ body{
     border-radius: 50px;
 }
 
+@media(max-width:700px){
+    img{
+        size:20px;
+    
+    }
+}
 
  .row {
     display: flex;
@@ -104,6 +185,7 @@ body{
 
 .main p{
     color:chocolate;
+    text-align: justify;
 }
 
 
@@ -117,6 +199,7 @@ body{
 .mobile p{
     font-size: 18px;
     color:darkorange;
+    text-align: justify;
 }
 .mobile h1{
     font-size: 40px;
@@ -142,6 +225,8 @@ body{
     background-position: left;
     background-size: 90px;
     margin-top: 90px;
+    margin-bottom: 20%;
+   
     
 }
 
@@ -158,10 +243,66 @@ body{
     border-image-slice: 1;
 }
 
-footer{
-    margin-top: 80px;
-    text-align: center;
+
+
+/*---------footer-----*/
+
+.footer{
+    width:100%;
+    text-align:center;
+    padding:30px 0;
+    background-color:gainsboro;
+   
 }
+
+.footer h4{
+    margin-bottom:25px;
+    font-size:50px;
+    margin-top:20px;
+    font-weight: 600;
+}
+
+.icons .fab{
+    color:#f44336;
+    margin:0 13px;
+    cursor:pointer;
+    padding:18px 0;
+}
+
+.footer p{
+    color:black;
+}
+
+.footer .icon{
+    color:darkred;
+}
+
+.footer span{
+    color:red;
+}
+
+
+
+
+.top{
+    position: fixed;
+          bottom: 10px;
+          float: right;
+          right: 5.5%;
+          left: 94.25%;
+          max-width: 30px;
+          width: 100%;
+          background: linear-gradient(to right, rgb(255, 72, 164), rgb(255, 0, 106));
+          padding: 8px 6px;
+          border-radius: 50%;
+  text-align:center;
+  }
+  
+  .top i{
+   color: white;
+    font-size: 20px;
+  }
+
 
 
 
